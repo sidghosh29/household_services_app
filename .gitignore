@@ -1,0 +1,25 @@
+# Python-related
+*.pyc
+*.pyo
+__pycache__/
+*.log
+*.env
+
+# Virtual environment
+venv/
+.env/
+
+# Celery Beat schedule file
+celerybeat-schedule
+
+# SQLite database file
+*.sqlite3
+*.db
+
+# IDE-related files
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db

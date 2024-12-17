@@ -1,0 +1,6 @@
+id,service_id,customer_id,professional_id,date_of_request,date_of_completion,service_status,remarks,rating
+1,1,1,1,2024-11-17T17:43:54.159788,2024-11-20T12:44:00.085279,closed,Service Accepted,
+2,3,1,,2024-11-17T19:00:13.996141,2024-11-27T23:25:01.831744,completed,Excellent work,5
+4,1,1,1,2024-11-20T13:02:24.017499,2024-11-27T23:33:10.515990,completed,Not very happy with the service but overall it was satisfactory,3
+5,1,1,1,2024-11-20T13:02:31.697362,2024-11-21T14:21:01.870084,completed,,
+7,1,1,2,2024-11-25T12:42:43.932478,2024-11-27T23:38:31.895094,completed,Excellent work,5

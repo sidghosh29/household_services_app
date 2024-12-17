@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+}
+
+#panel {
+  width: 90%;
+  margin: auto;
+  /*You can set the margin property to auto to horizontally center the element within its container. 
+    The element will then take up the specified width, and the remaining space will be split equally
+    between the left and right margins.*/
+  min-height: 700px;
+}
+
+#input-form {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: 1px solid white;
+  width: 420px;
+  height: 400px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+/*@keyframes is a CSS at-rule used to define the intermediate steps in an animation sequence.
+
+@keyframes animation-name {
+  from {
+    <initial styles>
+}
+to {
+  final styles 
+}
+}
+
+This defines a keyframe animation that changes the opacity of an element from 0 to 1, 
+making it fade in from being completely transparent to fully visible. 
+
+*/
+
+.fade-in {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*In CSS, there are around 20 at-rules, with some of the most common ones being @media, 
+@import, @font-face, @keyframes, and @supports.
+At-rules are special instructions in CSS, starting with the @ symbol, 
+used to define specific behavior, such as conditional styles, 
+importing stylesheets, or embedding fonts.*/
+
+.add-service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic {
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.loading-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.loading-line {
+  width: 60%;
+  height: 4px;
+  background: linear-gradient(to right, #4caf50 50%, transparent 50%);
+  background-size: 200% 100%; /*the gradient size is twice of the element. */
+  animation: loading-line 1.5s infinite;
+}
+
+@keyframes loading-line {
+  from {
+    background-position: 100% 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
