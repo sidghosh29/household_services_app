@@ -1,4 +1,4 @@
-#Household Services Application – V2 (H.S.A.) 
+# Household Services Application – V2 (H.S.A.) 
 
 It is a multi-user app (requires one admin and other service professionals/ customers) that acts as a platform for providing comprehensive home servicing and solutions.
 
